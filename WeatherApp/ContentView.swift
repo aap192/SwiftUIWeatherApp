@@ -19,7 +19,7 @@ struct ContentView: View {
                                    imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill",
                                    temperature: 74)
                     WeatherDayView(dayOfWeek: "TUE",
-                                   imageName: "sun.max.fill",
+                                   imageName: isNight ? "sunset.fill" : "sun.max.fill",
                                    temperature: 88)
                     WeatherDayView(dayOfWeek: "WED",
                                    imageName: "wind.snow",
